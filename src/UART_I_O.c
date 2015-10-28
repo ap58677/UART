@@ -1,49 +1,3 @@
-
-Conversation opened. 1 read message.
-
-Skip to content
-Using Mississippi State University Mail with screen readers
-Click here to enable desktop notifications for Mississippi State University Mail.   Learn more  Hide
-Move to Inbox
- 
-More 
-1 of 4
- 
-msp430 UART
-Inbox
-    x
-AARON POWELL <AARON.POWELL@adtran.com>
-    
-AttachmentsOct 20 (8 days ago)
-        
-to me
-
- 
-5 Attachments
-Preview attachment UART_I_O.c
-[C]
-Preview attachment UART_I_O.h
-[C]
-Preview attachment led_toggle.c
-[C]
-Preview attachment led_toggle.h
-[C]
-Preview attachment main.c
-[C]
-    
-Click here to Reply or Forward
-Using 0.83 GB
-Program Policies
-Powered by
-Google
-Last account activity: 1 hour ago
-Details
-    
-    
-    AARON POWELL
-aaron.powell@adtran.com
-Show details
-
 /*
  * outChar.c
  *
@@ -51,8 +5,8 @@ Show details
  *      Author: apowell
  */
 #include <stdint.h>
-//#include <msp430.h> uncomment both lines
-//#include "led_toggle.h"
+/*#include <msp430.h> uncomment both lines
+/#include "led_toggle.h"*/
 
 extern volatile uint8_t data;
 extern volatile uint8_t FLAGS;
