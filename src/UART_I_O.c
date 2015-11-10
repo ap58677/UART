@@ -15,7 +15,7 @@ extern uint8_t CHECK_AUTO_COMP;
 
 void uart_init(void){
     /* Configure P1.1 and P1.2 for UART (USC_A0) */
-    /* (0bxxxxx11x xxxxxxxx) = 0x60 for both in order to specify P1.1(BIT1) and P1.2(BIT2)*/
+    /* (0bxxxx 0110) = 0x6 for both in order to specify P1.1(BIT1) and P1.2(BIT2)*/
     P1SEL |= 0x6; //ports P1.1 and P1.2 are now
     P1SEL2 |= 0x6;// selected to secondary peripheral use due to SEL and SEL2 set high.
 
